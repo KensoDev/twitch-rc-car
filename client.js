@@ -1,8 +1,8 @@
-var auth=process.env.AUTH;
-
-var username = "FullStackBot";
 const tmi = require('tmi.js'); // Twitch Real time communication
 var gpio = require('rpi-gpio'); // To communicate with the PI gpio pins
+
+const auth = process.env.AUTH;
+const username = "FullStackBot";
 
 gpio.setup(3, gpio.DIR_OUT);
 gpio.setup(5, gpio.DIR_OUT);
