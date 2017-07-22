@@ -9,18 +9,7 @@ gpio.setup(5, gpio.DIR_OUT);
 gpio.setup(11, gpio.DIR_OUT);
 gpio.setup(13, gpio.DIR_OUT);
 
-const USERS = [
-  'cam_zach',
-  'jarmahent',
-  'stephensxu',
-  'inthebumnoharmdone',
-  'londyf',
-  'kensodev',
-  'playerfine',
-  'conurb',
-  'oxladitel',
-  'firecopy',
-]
+const USERS = [];
 
 const COMMANDS = {
   "F": [3],
