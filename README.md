@@ -1,14 +1,20 @@
 # Twitch chat remote controlled car
 
+RC car controlled by the Twitch chat in real time.
 
+## Project management
 
+The trello for the game is managed here: [Crazy RC Cars Twitc](https://trello.com/b/kJhQotPV/crazy-car-racing-game)
+
+## Ideas / Comments
+
+If you have an idea for the game, please feel free to add it as an issue or open up a PR.
 
 
 ## Upcoming features
 
 The car game is under development, these are the upcoming features I am going
 to be implementing.
-
 
 
 ### Queue management (User based control)
@@ -44,7 +50,6 @@ F
 
 The car goes through the commands one by one and sends the command it's
 currently executing to the server, which will display the data in real time.
-
 
 
 
